@@ -1,0 +1,131 @@
+.todo-container {
+  background-color: #6482AD; 
+  padding: 50px 0; 
+  display: flex;
+  justify-content: center;
+  min-height: 100vh; 
+}
+
+
+  .todo-card {
+ 
+  width: var(--card-width,200px);
+  height: var(--card-height, 100px); 
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  transition: width 0.3s ease,height 0.3s ease;
+  background-color: #180161;
+}
+
+.todo-title {
+  font-size: 34px;
+  margin-bottom: 20px;
+  color: #f8f8f8
+ 
+}
+
+.task-input {
+  width: calc(80% - 10px);
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #1d1c1c;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family:Roboto;
+  
+}
+
+.task-add-btn {
+ 
+  padding: 8px 5px;
+  margin-left: 3px;
+  margin-bottom: 10px;
+  background-color: #177b84;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.task-add-btn:hover {
+  background-color: #256f64;
+}
+
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.task-item {
+  
+  width: var(--task-width, 50%);
+  max-width: 88%;
+  max-height: 15px;
+  padding: 8px;
+  margin: 2px 0;
+  margin-top: 2px;
+  background:white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 14px; 
+  color:black;
+  height:auto;
+}
+.task-item .task-edit-container,
+.task-item .task-view-container {
+  width: 100%; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.task-edit-container {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+  gap: 8px;
+   
+}
+
+.task-edit-btn,.task-delete-btn,.task-save-btn{
+  cursor: pointer;
+  background: none;
+  border: none;
+  margin-left: 4px;
+  font-size: 14px;
+}
+
+.task-save-btn {
+  margin-left: 8px; 
+}
+
+.task-edit-btn:hover, .task-save-btn:hover,.task-delete-btn:hover {
+  color: #007bff;
+}
+
+.task-edit-input {
+  flex-grow: 1;
+  width: calc(80% - 10px); 
+  max-width: 88%;
+  padding: 8px;
+  border: 1px solid #ccc;  
+  border-radius: 4px;
+  box-sizing: border-box;  
+  border: none;
+  margin-left:-10px;
+}  
+
