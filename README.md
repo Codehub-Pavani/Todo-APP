@@ -1,9 +1,8 @@
 # To-Do App
 
 This To-Do application is a full-stack project that allows users to manage their daily tasks efficiently. The frontend of the application is built using **React.js**, providing a dynamic and responsive user interface. The backend is developed with **Node.js** and **Express.js**, ensuring robust server-side operations and API handling. The application also integrates with **MongoDB** for database management, storing all user tasks securely.
-### Output
-![department](https://github.com/user-attachments/assets/ad783241-9ed9-4bfb-b70e-6d222724dd9f)
-
+### Demo Video
+https://github.com/user-attachments/assets/8cb75035-7fa4-4900-a261-dc55f964a4e2
 ## Features
 - **Add Tasks:** Users can easily add new tasks to their to-do list.
 - **Edit Tasks:** Existing tasks can be edited to update their details.
